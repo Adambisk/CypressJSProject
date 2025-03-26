@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-26T05:13:43.956Z",
+    "end": "2025-03-26T05:13:47.199Z",
+    "duration": 3243,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "099dedf1-88e0-4fbc-bcfb-6ad360fe9c97",
+      "title": "",
+      "fullFile": "cypress/e2e/ui/sampleTest.cy.js",
+      "file": "cypress/e2e/ui/sampleTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b418b603-9214-4eac-a0d3-53eee548391d",
+          "title": "Sample Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visits Amphora homepage",
+              "fullTitle": "Sample Test Visits Amphora homepage",
+              "timedOut": null,
+              "duration": 2165,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://www.amphora.net\");\ncy.title().should(\"include\", \"Amphora\");",
+              "err": {},
+              "uuid": "ced88972-bbac-46a8-889a-1889131f24a2",
+              "parentUUID": "b418b603-9214-4eac-a0d3-53eee548391d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ced88972-bbac-46a8-889a-1889131f24a2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2165,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
